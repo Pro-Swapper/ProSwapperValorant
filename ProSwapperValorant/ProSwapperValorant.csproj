@@ -1,0 +1,46 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <Nullable>disable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <StartupObject>ProSwapperValorant.Program</StartupObject>
+    <Description>Pro Swapper for Valorant</Description>
+    <Copyright>2021 Pro Swpaper Valorant</Copyright>
+    <PackageProjectUrl>https://proswapper.xyz</PackageProjectUrl>
+    <Platforms>AnyCPU;x64</Platforms>
+    <ApplicationIcon>ProSwapperValorant.ico</ApplicationIcon>
+    <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="ProSwapperValorant.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ValorantAPI\ValorantAPI.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Cards\CardIcon.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Profile.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Properties\Resources.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+
+</Project>
