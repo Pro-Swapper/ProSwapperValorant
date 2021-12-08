@@ -1,0 +1,10 @@
+D:\Visual Studio Projects\ValorantAPI\bin\Debug\netcoreapp3.1\ValorantAPI.deps.json
+D:\Visual Studio Projects\ValorantAPI\bin\Debug\netcoreapp3.1\ValorantAPI.dll
+D:\Visual Studio Projects\ValorantAPI\bin\Debug\netcoreapp3.1\ValorantAPI.pdb
+D:\Visual Studio Projects\ValorantAPI\obj\Debug\netcoreapp3.1\ValorantAPI.GeneratedMSBuildEditorConfig.editorconfig
+D:\Visual Studio Projects\ValorantAPI\obj\Debug\netcoreapp3.1\ValorantAPI.AssemblyInfoInputs.cache
+D:\Visual Studio Projects\ValorantAPI\obj\Debug\netcoreapp3.1\ValorantAPI.AssemblyInfo.cs
+D:\Visual Studio Projects\ValorantAPI\obj\Debug\netcoreapp3.1\ValorantAPI.csproj.CoreCompileInputs.cache
+D:\Visual Studio Projects\ValorantAPI\obj\Debug\netcoreapp3.1\ValorantAPI.dll
+D:\Visual Studio Projects\ValorantAPI\obj\Debug\netcoreapp3.1\ValorantAPI.pdb
+D:\Visual Studio Projects\ValorantAPI\obj\Debug\netcoreapp3.1\ValorantAPI.csproj.AssemblyReference.cache
